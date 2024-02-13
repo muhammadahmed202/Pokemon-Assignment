@@ -1,0 +1,302 @@
+body{
+    background: url(images/bg.png);
+}
+.logo{
+    margin-left: 260px;
+    margin-right: 260px;
+    
+}
+.poke{
+    text-align: center;
+    width: 130px;
+    height: 100px;
+    padding-top: 10px;
+    border-bottom:7px solid #919191 ;
+    padding-bottom: 10px;
+
+}
+.poke:hover{
+    background-color:  #919191;;
+}
+.pokedex{
+    text-align: center;
+    width: 130px;
+    height: 100px;
+    padding-top: 10px;
+    border-bottom:7px solid #E3350D ;
+    padding-bottom: 10px;
+}
+.pokedex:hover{
+    background-color: #E3350D;
+}
+.games{
+    text-align: center;
+    width: 130px;
+    height: 100px;
+    padding-top: 10px;
+    border-bottom:7px solid #EE6B2F ;
+    padding-bottom: 10px;
+    
+}
+.games:hover{
+    background-color: #EE6B2F;
+}
+.cards{
+    text-align: center;
+    width: 130px;
+    height: 100px;
+    padding-top: 10px;
+    border-bottom:7px solid #E6BC2F ;
+    padding-bottom: 10px;
+    
+}
+.cards:hover{
+    background-color: #E6BC2F;
+}
+.animation{
+    text-align: center;
+    width: 130px;
+    height: 100px;
+    padding-top: 10px;
+    border-bottom:7px solid #4DAD5B ;
+    padding-bottom: 10px;
+    
+}
+.animation:hover{
+    background-color: #4DAD5B;
+}
+.events{
+    text-align: center;
+    width: 130px;
+    height: 100px;
+    padding-top: 10px;
+    border-bottom:7px solid #307AD7 ;
+    padding-bottom: 10px;
+    
+}
+.events:hover{
+    background-color: #307AD7;
+}
+.news{
+    text-align: center;
+    width: 130px;
+    height: 100px;
+    padding-top: 10px;
+    border-bottom:7px solid #1B53BA;
+    padding-bottom: 10px;
+    
+}
+.news:hover{
+    background-color: #1B53BA;
+}
+.main{
+    display: flex;
+    /* margin-right: 200px;
+    margin-left: 200px; */
+    justify-content: center;
+}
+.card-1{
+    /* margin-top: 10px; */
+    background-color: #C7AA79;
+    
+    border-radius: 10px;
+}
+.card-3{
+    background-color:#E6BC2F;
+    border-radius: 10px;
+    
+    
+    
+}
+.card-head{
+    padding-left: 20px ;
+    color: white;
+}
+.card-para{
+    padding-left: 20px;
+
+}
+.card-4{
+    background-color: #1b53ba !important;
+    border-radius: 10px;
+    padding-bottom: 1px;
+}
+.card-2{
+    margin-top: 20px;
+
+}
+.card-1,.card-2{
+    display: inline-block;
+    
+    
+}
+.main-2{
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.card-5{
+    background-color: #369143;
+    border-radius: 10px;
+}
+.main-3{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.card-6{
+    background-color: #E6BC2F;
+    border-radius: 10px;
+}
+.card-7{
+    background-color:#C7AA79;
+    border-radius: 10px;
+}
+.ani{
+    background-color:black;
+    margin-top: 30px;
+    /* justify-content: space-between; */
+    text-align: center;
+}
+.in{
+    background-color:#313131 ;
+}
+.main-4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 50px;
+}
+.card-8{
+    background-color: #1B53BA;
+    border-radius: 10px;
+}
+.card-9{
+    background-color: #C7AA79;
+    border-radius: 10px;
+}   
+.card-10{
+    background-color: #30a7d7;
+    border-radius: 10px; 
+}
+.main-5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 50px;
+}
+.card-11{
+    background-color: #ff2a8e;
+    border-radius: 10px;
+}
+.card-12{
+    background-color: #E3350D;
+    border-radius: 10px;
+}
+.card-13{
+    background-color: #E6BC2F;
+    border-radius: 10px;
+}
+.footer{
+    background-color: #313131;
+    color: #fff;
+}
+.form-big{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 0px;
+    font-size: larger;
+}
+#selector{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 0px;
+    font-size: larger;
+    color: gray;
+
+}
+.form-bdy{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 0px;
+    font-size: larger;
+    color: gray;
+}
+.btn{
+    width: 170px;
+    height: 70px;
+    background-color: #888;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 1px 6px;
+    border: 0px;
+    
+}
+/* .footer-left{
+    margin-left: 100px;
+}
+.footer-right{
+    margin-right: 100px;
+} */
+.checkbox{
+    width: 25px;
+    height: 25px;
+} 
+.footer{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.footer-2{
+    background-color: #313131;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.part-1{
+    padding-top: 50px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    
+
+}
+.j{
+    padding-left: 40px;
+}
+.part-2{
+    padding-top: 70px;
+    /* padding-left: 80px;
+    padding-right: 80px; */
+    
+
+}
+.part-3{
+    padding-top: 50px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    
+}
+li{
+    list-style-type: none;
+}
+li:hover{
+    text-decoration: underline;
+}
+
+
+
